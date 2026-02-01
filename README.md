@@ -62,7 +62,7 @@ Automates the process of testing algorithm changes:
 3. Runs the benchmark again and generates comparative plots (Current vs. Baseline).
 4. Restores the original directory structure.
 
-### 3. Population Visualizer (`visualize.rs`)
+### 3. Population Visualizer (`visualize_stage_one.rs`)
 
 Focuses on the stochastic nature of GlobalSearch. It runs multiple independent Stage 1 instances (different seeds) and plots them onto the objective function's contour map.
 
